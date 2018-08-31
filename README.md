@@ -46,6 +46,8 @@ Here is the directory which contains the scripts used to run the debugger. As we
 
 ### Applying the Settings
 
+> 8545 port로 Ethereum Client를 별도로 사용 중이면 이 작업을 하지 않아도 됨(실제로 해도 setup.sh에 testprc 부분을 추가해 주어야함)
+
 Inside of edit configurations, you will need to create a new run/debug configuration.
 
 ![alt text](/Screenshots/EditConfig.png?raw=true)
