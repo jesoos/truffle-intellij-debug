@@ -55,5 +55,11 @@ module.exports = {
             network_id: '*', // eslint-disable-line camelcase
             gasPrice:0x01
         },
+        develop: {
+            host: 'localhost',
+            port: 9545,
+            network_id: '*', // eslint-disable-line camelcase
+            gasPrice:0x01
+        },
     },
 };

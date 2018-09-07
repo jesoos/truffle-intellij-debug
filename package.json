@@ -4,7 +4,7 @@
   "description": "A test contract",
   "main": "index.js",
   "scripts": {
-    "test": "node $NODE_DEBUG_OPTION ./node_modules/.bin/truffle test",
+    "test": "node $NODE_DEBUG_OPTION ./node_modules/.bin/truffle test $FILES --network $NETWORK",
     "deploy": "truffle migrate --reset --network $NETWORK"
   },
   "author": "",
